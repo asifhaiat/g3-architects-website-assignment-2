@@ -132,7 +132,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  margin-top: 130px;
+  margin-top: 170px;
 }
 .love-enjoy-title {
   font-weight: 700;
@@ -147,7 +147,6 @@ body {
   font-size: 16px;
   color: #727272;
 }
-
 
 .features-list {
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -177,12 +176,58 @@ body {
   font-weight: 700;
   font-size: 65px;
   color: #ffffff;
-  background: #FF900E;
+  background: #ff900e;
   padding: 25px;
   border: none;
   border-radius: 8px;
+  transform: translateY(-70%);
+  position: relative;
+  right: 5vw;
 }
 .primary-button2 span {
   font-weight: 500;
   font-size: 25px;
+}
+
+/* Some Facts Section */
+.some-facts {
+  padding: 10px 15vw;
+  margin-top: 198px;
+}
+.facts-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.facts-para {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 100px;
+}
+
+.achievement-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.achievement-item {
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 15px 2vw;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.digit {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+}
+
+.item-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
 }
