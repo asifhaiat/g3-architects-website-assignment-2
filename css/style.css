@@ -231,3 +231,16 @@ body {
   font-size: 20px;
   color: #727272;
 }
+
+/* Our Sponsors Section */
+.sponsors-section{
+  text-align: center;
+  margin-top: 180px;
+}
+
+.sponsors-icon{
+  padding: 10px 15vw;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
