@@ -233,14 +233,32 @@ body {
 }
 
 /* Our Sponsors Section */
-.sponsors-section{
+.sponsors-section {
   text-align: center;
   margin-top: 180px;
 }
 
-.sponsors-icon{
+.sponsors-icon {
   padding: 10px 15vw;
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
+}
+
+/* Footer Section */
+.footer-section {
+  margin: 10px 20vw;
+  height: 100px;
+  margin-top: 130px;
+  
+}
+.footer-para {
+  padding: 25px 5vw;
+  background: #fff4e7;
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
