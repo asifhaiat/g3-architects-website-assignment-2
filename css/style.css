@@ -51,8 +51,8 @@ body {
 }
 
 .banner {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 
 .banner-title {
@@ -80,7 +80,50 @@ body {
   cursor: pointer;
 }
 
-.banner-img{
-    margin-top: 30px;
-    border-radius: 8px;
+.banner-img {
+  margin-top: 30px;
+  border-radius: 8px;
 }
+
+/* Features Section */
+.features-section {
+  padding: 20px 18vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.features-img {
+  margin-top: 50px;
+  width: 342px;
+  height: 342px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.features-area {
+  margin-top: 200px;
+  font-weight: 500;
+  font-size: 45px;
+  grid-column: 3 / 3;
+  grid-row: 1 / 2;
+}
+.features {
+  color: #ff900e;
+}
+.our {
+  color: #131313;
+}
+.quick-list {
+  color: #727272;
+}
+
+.features-para {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+
