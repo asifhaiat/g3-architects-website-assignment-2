@@ -87,10 +87,11 @@ body {
 
 /* Features Section */
 .features-section {
-  padding: 20px 18vw;
+  padding: 1px 18vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin-bottom: 200px;
 }
 
 .features-img {
@@ -125,5 +126,63 @@ body {
   font-size: 16px;
   color: #727272;
 }
+/* Features you will love & enjoy */
+.features-love-enjoy {
+  padding: 10px 8vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 130px;
+}
+.love-enjoy-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  border-left: 5px solid #ff900e;
+  padding: 20px;
+}
+
+.love-enjoy-para {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
 
 
+.features-list {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.list-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+
+.list-para {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+.architect-img {
+  width: 708px;
+  height: 982px;
+  border-radius: 8px;
+}
+
+.primary-button2 {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+  background: #FF900E;
+  padding: 25px;
+  border: none;
+  border-radius: 8px;
+}
+.primary-button2 span {
+  font-weight: 500;
+  font-size: 25px;
+}
