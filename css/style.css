@@ -44,7 +44,10 @@ body {
   background-color: lightcoral;
   border-radius: 2px;
   padding: 3px 0px;
+  transition: transform 0.5s ease;
+  transform: translateX(1.5rem);
 }
+
 
 .nav-item li a:hover {
   color: aliceblue;
@@ -217,7 +220,13 @@ body {
   text-align: center;
   padding: 15px 2vw;
   border-radius: 5px;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.achievement-item:hover {
+  transform: rotate(360deg);
 }
 
 .digit {
@@ -243,6 +252,28 @@ body {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.spotify:hover{
+  transition: transform 0.5s ease;
+  transform: translateX(1.5rem);
+}
+.amazon:hover{
+  transition: transform 0.5s ease;
+  transform: translateX(-1.5rem);
+}
+.google:hover{
+  transition: transform 0.5s ease;
+  transform: translateY(1.5rem);
+}
+.telerama:hover{
+  transition: transform 0.5s ease;
+  transform: translateY(-1.5rem);
+}
+.figma:hover{
+  transition: transform 0.5s ease;
+  transform: translate(1.5rem);
 }
 
 /* Footer Section */
@@ -250,7 +281,6 @@ body {
   margin: 10px 20vw;
   height: 100px;
   margin-top: 130px;
-  
 }
 .footer-para {
   padding: 25px 5vw;
