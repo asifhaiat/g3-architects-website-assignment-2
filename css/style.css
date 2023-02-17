@@ -103,7 +103,7 @@ body {
   border-radius: 8px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  gap: 20px;
 }
 
 .features-area {
@@ -112,6 +112,7 @@ body {
   font-size: 45px;
   grid-column: 3 / 3;
   grid-row: 1 / 2;
+  transform: translateX(15%);
 }
 .features {
   color: #ff900e;
